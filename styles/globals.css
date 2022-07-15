@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form {
+    @apply block w-full px-3 py-2 mt-1 border rounded shadow outline-none ring-yellow-500 focus:ring;
+  }
+}
+
+/* @layer components {
+  .button {
+    @apply w-5 h-5 transition-transform duration-100 ease-out cursor-pointer hover:scale-125;
+  }
+} */
